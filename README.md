@@ -8,12 +8,14 @@ It is designed as a compact, programmable input device using **QMK firmware**, s
 
 ---
 
-## 📸 Overall Hackpad
+## 🧱 Case & Assembly Fit
 
 ![Overall Hackpad](Images/overall_hackpad.png)
 
-This image shows the completed Gigapad, including the key layout, rotary encoder placement, and overall form factor.
-
+Features:
+- Easy access to the USB-C port
+- Secured PCB and case using 4 M3 Screws with brass heatsets (2 on the case, 2 on the case and pcb)
+- Different key levels for a more ergonomic feel
 ---
 
 ## 📐 Schematic
@@ -23,8 +25,8 @@ This image shows the completed Gigapad, including the key layout, rotary encoder
 The schematic shows:
 - A **3×3 key matrix** (9 keys total)
 - A **rotary encoder connected directly to GPIO pins** (not part of the matrix)
-- An **OLED display over I²C**
-- Power and data routing for the microcontroller and peripherals
+- An **OLED display**
+-Led in series delivered using parallel power
 
 ---
 
@@ -35,38 +37,26 @@ The schematic shows:
 The PCB is a **2-layer board** designed for JLCPCB manufacturing with:
 - 1 oz copper
 - Dedicated encoder pins
-- Proper ground pours
-- Clearances suitable for hand soldering
+- Ground pours and 5V pour
 
 ---
 
-## 🧱 Case & Assembly Fit
-
-![Case Assembly](Images/case_assembly.png)
-
-The case is designed to:
-- Secure the PCB using **heat-set brass inserts**
-- Support the rotary encoder and key switches
-- Allow easy access to the USB-C port
-- Be 3D-printed and assembled with standard M3 hardware
-
----
 
 ## 🧾 Bill of Materials (BOM)
 
 | Part | Quantity | Description |
 |----|----|----|
-| Microcontroller | 1 | Seeed XIAO RP2040 |
-| Mechanical Switches | 9 | MX-style switches |
-| Keycaps | 9 | MX compatible |
-| Rotary Encoder | 1 | EC11 or compatible |
-| OLED Display | 1 | SSD1306 I²C OLED |
-| Diodes | 9 | 1N4148 or equivalent |
-| Resistors | 1 | Encoder pull-ups (if required) |
-| Brass Heat-Set Inserts | 4 | M3 |
-| Screws | 4 | M3 × 16 mm |
-| PCB | 1 | Custom 2-layer PCB |
-| Case | 1 | 3D-printed enclosure |
+| Microcontroller | 1x | Seeed XIAO RP2040 |
+| Mechanical Switches | 9x | MX-style switches |
+| Keycaps | 9x | MX compatible |
+| Rotary Encoder | 1x | EC11 or compatible |
+| OLED Display | 1x | SSD1306 I²C OLED |
+| Diodes | 9x | 1N4148 or equivalent |
+| Resistors | 1x | Encoder pull-ups (if required) |
+| Brass Heat-Set Inserts | 4x | M3 |
+| Screws | 4x | M3 × 16 mm |
+| PCB | 1x | Custom 2-layer PCB |
+| Case | 1x | 3D-printed enclosure |
 
 ---
 
@@ -79,6 +69,5 @@ Gigapad runs **QMK firmware**, configured for:
 - Fully customizable keymap
 
 
-Firmware Overview:
 
 
