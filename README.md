@@ -10,7 +10,7 @@ It is designed as a compact, programmable input device using **QMK firmware**, s
 
 ## 📸 Overall Hackpad
 
-![Overall Hackpad](images/overall_hackpad.png)
+![Overall Hackpad](Images/overall_hackpad.png)
 
 This image shows the completed Gigapad, including the key layout, rotary encoder placement, and overall form factor.
 
@@ -18,7 +18,7 @@ This image shows the completed Gigapad, including the key layout, rotary encoder
 
 ## 📐 Schematic
 
-![Schematic](images/schematic.png)
+![Schematic](Images/schematic.png)
 
 The schematic shows:
 - A **3×3 key matrix** (9 keys total)
@@ -30,7 +30,7 @@ The schematic shows:
 
 ## 🧩 PCB
 
-![PCB](images/pcb.png)
+![PCB](Images/pcb.png)
 
 The PCB is a **2-layer board** designed for JLCPCB manufacturing with:
 - 1 oz copper
@@ -42,7 +42,7 @@ The PCB is a **2-layer board** designed for JLCPCB manufacturing with:
 
 ## 🧱 Case & Assembly Fit
 
-![Case Assembly](images/case_assembly.png)
+![Case Assembly](Images/case_assembly.png)
 
 The case is designed to:
 - Secure the PCB using **heat-set brass inserts**
