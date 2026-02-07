@@ -18,6 +18,8 @@ Features:
 - Easy access to the USB-C port
 - Secured PCB and case using 4 M3 Screws with brass heatsets (2 on the case, 2 on the case and pcb)
 - Different key levels for a more ergonomic feel
+
+![Assembly](Images/overview.png)
   
 ---
 
