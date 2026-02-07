@@ -20,6 +20,9 @@ Features:
 - Different key levels for a more ergonomic feel
 
 ![Assembly](Images/overview.png)
+![Assembly](Images/view1.png)
+![Assembly](Images/view2.png)
+![Assembly](Images/view3.png)
   
 ---
 
