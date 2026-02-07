@@ -12,21 +12,26 @@ It is designed as a compact, programmable input device using **QMK firmware**, s
 
 ![Overall Hackpad](Images/overall_hackpad.png)
 
+Made using Fusion 360 
+
 Features:
 - Easy access to the USB-C port
 - Secured PCB and case using 4 M3 Screws with brass heatsets (2 on the case, 2 on the case and pcb)
 - Different key levels for a more ergonomic feel
+  
 ---
 
 ## 📐 Schematic
 
 ![Schematic](Images/schematic.png)
 
+Made Using KiCad
+
 The schematic shows:
 - A **3×3 key matrix** (9 keys total)
 - A **rotary encoder connected directly to GPIO pins** (not part of the matrix)
 - An **OLED display**
--Led in series delivered using parallel power
+- 9 Mini-LED in series delivered using parallel power
 
 ---
 
