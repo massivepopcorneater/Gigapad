@@ -3,8 +3,11 @@ RGB_MATRIX_ENABLE = yes
 WS2812_DRIVER = vendor
 RGBLIGHT_ENABLE = no
 
-# We are decoding the encoder through the key matrix, so do NOT enable QMK's encoder feature.
-ENCODER_ENABLE = no
+# Rotary encoder is wired to dedicated GPIOs (NOT through the key matrix)
+ENCODER_ENABLE = yes
 
-# Optional: turn on if you really have the SSD1306 wired and want it
-# OLED_ENABLE = yes
+# OLED (SSD1306 over I2C)
+OLED_ENABLE = yes
+
+# RP2040 uses the vendor I2C driver
+I2C_DRIVER = vendor
