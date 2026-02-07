@@ -503,7 +503,7 @@
       "plot": "../../Production Files/Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Keypad.step",
+      "step": "../../Case Design/PCB.step",
       "svg": "",
       "vrml": ""
     },

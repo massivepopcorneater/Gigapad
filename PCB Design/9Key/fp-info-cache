@@ -1,4 +1,18 @@
-27257948635707513
+27256184913558331
+1_buzzers
+Buzzer_D30mm_H20mm_P15mm__668-1652-ND__AI-3035-TT-12V-R
+
+
+0
+2
+1
+1_buzzers
+Untitled
+
+
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70552,13 +70566,6 @@ solder jumper open
 0
 3
 3
-KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty-master
-SSD1306-0.91-OLED-4pin-128x32
-
-
-0
-4
-4
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -108044,17 +108051,3 @@ Varistor VF
 0
 2
 2
-footprints
-SK6812MINI-E_fixed
-Add-on for regular MX-footprints with SK6812 MINI-E
-cherry MX SK6812 Mini-E rearmount rear mount led rgb backlight
-0
-4
-4
-footprints
-XIAO-Generic-Hybrid-14P-2.54-21X17.8MM
-
-
-0
-14
-14
