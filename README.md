@@ -1,7 +1,7 @@
 # Gigapad
 A 9-key macropad that includes a LED for each key, a rotary encoder and a 0.91-inch OLED display. 
 
-Features:a# Gigapad – 9-Key Macropad with Rotary Encoder & OLED
+Features: Gigapad – 9-Key Macropad with Rotary Encoder & OLED
 
 Gigapad is a custom **9-key mechanical macropad** built around the **Seeed XIAO RP2040**, featuring a **rotary encoder** (not part of the key matrix) and an **OLED display**.  
 It is designed as a compact, programmable input device using **QMK firmware**, suitable for shortcuts, media control, and custom workflows.
@@ -77,26 +77,6 @@ Gigapad runs **QMK firmware**, configured for:
 - Rotary encoder using dedicated GPIO pins
 - OLED display output
 - Fully customizable keymap
-
----
-
-## 🚀 Future Improvements
-- RGB underglow effects
-- Multiple OLED pages
-- VIA support
-- Additional encoder modes
-
----
-
-## 📜 License
-This project is open-source and intended for learning, modification, and personal use.
-
-
-
-Cad Model:
-
-
-PCB Design:
 
 
 Firmware Overview:
