@@ -3,7 +3,7 @@ A 9-key macropad that includes a LED for each key, a rotary encoder and a 0.91-i
 
 Features: Gigapad – 9-Key Macropad with Rotary Encoder & OLED
 
-Gigapad is a custom 9-key mechanical macropad built around the Seeed XIAO RP2040, featuring a rotary encoder (not part of the key matrix) and an **OLED display**.  
+Gigapad is a custom 9-key mechanical macropad built around the Seeed XIAO RP2040, featuring a rotary encoder (not part of the key matrix) and an OLED display.  
 It is designed as a compact, programmable input device using QMK firmware, suitable for shortcuts, media control, and custom workflows.
 
 ---
@@ -58,11 +58,10 @@ The PCB is a 2-layer board designed for JLCPCB manufacturing with:
 |----|----|----|
 | Microcontroller | 1x | Seeed XIAO RP2040 |
 | Mechanical Switches | 9x | MX-style switches |
-| Keycaps | 9x | MX compatible |
-| Rotary Encoder | 1x | EC11 or compatible |
-| OLED Display | 1x | SSD1306 I²C OLED |
-| Diodes | 9x | 1N4148 or equivalent |
-| Resistors | 1x | Encoder pull-ups (if required) |
+| Keycaps | 9x | ABS Keycaps |
+| Rotary Encoder | 1x | EC11 |
+| OLED Display | 1x | 0.91-inch OLED Display |
+| Diodes | 9x | 1N4148  |
 | Brass Heat-Set Inserts | 4x | M3 |
 | Screws | 4x | M3 × 16 mm |
 | PCB | 1x | Custom 2-layer PCB |
