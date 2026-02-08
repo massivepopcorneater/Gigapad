@@ -1,10 +1,8 @@
 # Gigapad
-A 9-key macropad that includes a LED for each key, a rotary encoder and a 0.91-inch OLED display. 
+A 9-key macropad that includes a LED for each key, a rotary encoder and a 0.91-inch OLED display. I made this project to challenge myself so that I can be better prepared to create real-world solutions and also I having a macropad with an OLED screen and a rotary encoder is pretty cool too. (Also for a soldering iron lol) 
 
-Features: Gigapad – 9-Key Macropad with Rotary Encoder & OLED
-
-Gigapad is a custom **9-key mechanical macropad** built around the **Seeed XIAO RP2040**, featuring a **rotary encoder** (not part of the key matrix) and an **OLED display**.  
-It is designed as a compact, programmable input device using **QMK firmware**, suitable for shortcuts, media control, and custom workflows.
+Gigapad is a custom 9-key mechanical macropad built around the Seeed XIAO RP2040, featuring a rotary encoder and an OLED display.  
+It is designed as a compact, programmable input device using QMK firmware, suitable for shortcuts, media control, and custom workflows.
 
 ---
 
@@ -33,9 +31,9 @@ Features:
 Made Using KiCad
 
 The schematic shows:
-- A **3×3 key matrix** (9 keys total)
-- A **rotary encoder connected directly to GPIO pins** (not part of the matrix)
-- An **OLED display**
+- A 3×3 key matrix 
+- A rotary encoder connected directly to GPIO pins 
+- An OLED display
 - 9 Mini-LED in series delivered using parallel power
 
 ---
@@ -44,7 +42,7 @@ The schematic shows:
 
 ![PCB](Images/pcb.png)
 
-The PCB is a **2-layer board** designed for JLCPCB manufacturing with:
+The PCB is a 2-layer board designed for JLCPCB manufacturing with:
 - 1 oz copper
 - Dedicated encoder pins
 - Ground pours and 5V pour
@@ -58,11 +56,10 @@ The PCB is a **2-layer board** designed for JLCPCB manufacturing with:
 |----|----|----|
 | Microcontroller | 1x | Seeed XIAO RP2040 |
 | Mechanical Switches | 9x | MX-style switches |
-| Keycaps | 9x | MX compatible |
-| Rotary Encoder | 1x | EC11 or compatible |
-| OLED Display | 1x | SSD1306 I²C OLED |
-| Diodes | 9x | 1N4148 or equivalent |
-| Resistors | 1x | Encoder pull-ups (if required) |
+| Keycaps | 9x | ABS Keycaps |
+| Rotary Encoder | 1x | EC11 |
+| OLED Display | 1x | 0.91-inch OLED Display |
+| Diodes | 9x | 1N4148  |
 | Brass Heat-Set Inserts | 4x | M3 |
 | Screws | 4x | M3 × 16 mm |
 | PCB | 1x | Custom 2-layer PCB |
